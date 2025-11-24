@@ -95,14 +95,31 @@ The system calculates how many calories are burned based on the reps completed a
 ### Simulations
 
 #### Scenario 1: Running Exercise
-1. The user selects **Running** and completes **5 reps**.
-2. The system calculates the total calories burned and displays the result.
+1. A person begins exercising and chooses Running.
+2. They complete 1 rep.
+3. The system displays their total calories burned so far.
+4. They then choose Walking.
+5. They complete 2 more reps.
+6. They check their current stats.
+7. The system displays their updated total calories burned.
 
 #### Scenario 2: Walking Exercise
-1. The user selects **Walking** and completes **10 reps**.
-2. The system calculates the total calories burned and displays the result.
+1. A person chooses Walking and completes 5 reps.
+2. They view their current stats.
+3. They complete 1 additional rep and view their current stats again.
+4. They choose Running and complete 3 more reps.
+5. They choose Climbing and complete 2 more reps.
+6. The system displays the new total calories burned.
 
 #### Scenario 3: Mixed Exercises
-1. The user selects **Running** and completes **5 reps**.
-2. The user then selects **Walking** and completes **5 reps**.
-3. The system calculates the total calories burned for both exercises and displays the final result.
+1. A person does not choose an exercise and completes 5 reps.
+2. They view their stats.
+3. They complete 5 more reps and view their total.
+4. They view their stats again.
+5. They choose Climbing and complete 3 additional reps.
+6. They view their stats.
+7. The system displays their total calories burned.
+
+
+### Extra Challenge
+Can you reset the exercise back to “none”? Can you modify the AddRep(rep) function to add a custom number to add instead of just 1 rep at a time?
