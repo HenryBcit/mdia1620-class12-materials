@@ -76,10 +76,13 @@ A small store wants you to calculate the final total for a customer’s purchase
 
 ### Problem Description
 
-The fitness-tracking system calculates the total calories burned during a workout based on selected exercises. There are only **two types of exercises** available:
+The fitness-tracking system calculates the total calories burned during a workout based on selected exercises. There are only **three types of exercises** available: Passing the below number to the ChooseExercise(num) function returns the exercise string "running", "walking", and "climbing"
+
+EG ChooseExercise(1) -> return "running"
 
 1. **Running** 
 2. **Walking**
+3. **Climbing**
 
 The system calculates how many calories are burned based on the reps completed and the chosen exercise.
 
