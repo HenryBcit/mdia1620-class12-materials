@@ -80,9 +80,9 @@ The fitness-tracking system calculates the total calories burned during a workou
 
 EG ChooseExercise(1) -> return "running"
 
-1. **Running** 
-2. **Walking**
-3. **Climbing**
+1. **Running** - 1 rep = 30 calories burned
+2. **Walking** - 1 rep = 10 calories burned
+3. **Climbing** - 1 rep = 50 calories burned
 
 The system calculates how many calories are burned based on the reps completed and the chosen exercise.
 
